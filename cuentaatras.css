@@ -1,0 +1,21 @@
+/* Estilos para el banner amarillo */
+.announcement-banner {
+    background-color: #FFEB3B; /* Color amarillo brillante */
+    color: #000; /* Texto en color negro */
+    text-align: center; /* Centrar el texto */
+    padding: 10px 0; /* Un poco de espacio arriba y abajo del texto */
+    font-size: 1.2rem; /* Tamaño de fuente adecuado */
+    font-weight: bold; /* Hacer el texto más destacado */
+    position: fixed; /* CAMBIARLO A ABSOLUTE SI QUIERES QUE SE QUEDE PEGADO */
+    top: 0; /* Pegado al borde superior */
+    left: 0; /* Pegado al borde izquierdo */
+    width: 100%; /* Ocupa todo el ancho */
+    z-index: 9999; /* Asegurarse de que esté por encima del resto de contenido */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera para que resalte más */
+    margin: 0;
+}
+
+/* Para asegurar que la cabecera no quede debajo del banner */
+.header-container {
+    margin-top: 50px; /* Añadir un margen superior para que no quede debajo del banner */
+}
